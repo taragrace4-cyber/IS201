@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray;
+    background-color: blanchedalmond;
+}
+li{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a{color: palevioletred;
+text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    /* font-weight: bold;
+    font-size: 18px; */
+}
+a:visited{color: magenta;}
+
+/* Styling for DIV 1: .navigation-bar */
+.navigation-bar {
+    /* Custom styling/positioning */
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Styling for the original Tableau DIV: .tableauPlaceholder */
+.tableauPlaceholder {
+    /* Adding styles to the div you already had */
+    border: 3px solid darkblue;
+    margin: 15px auto; /* Centering the block */
+    max-width: 1200px;
+}
+
+/* Styling for DIV 3: .video-section */
+.video-section {
+    /* Custom styling/positioning */
+    padding: 20px;
+    border-top: 1px dashed gray;
+    text-align: center; /* Positioning the video block */
+}
